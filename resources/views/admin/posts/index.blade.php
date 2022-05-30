@@ -20,7 +20,11 @@
         <div class="cardcontainer my-4">
           <p class="txt m-0">{{$post->user}}</p>
           <div class="photo w-50 mx-auto">
-            <img class="w-100" src="{{ $post->url}}">
+            @if (str_starts_with($post->url, "http" ))   
+              <img class="w-100" src="{{ $post->url}}" alt="image {{$post->title}}">
+            @else
+              <img class="w-100" src="{{ asset('storage') . '/' . $post->url}}" alt="image {{$post->title}}">
+            @endif
           </div>
           <div class="content border-bottom border-2 pb-4">
             <p>{{ ucfirst($post->title)}}</p>

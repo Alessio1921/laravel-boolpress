@@ -3387,7 +3387,7 @@ var render = function () {
         _c("img", { staticClass: "w-100", attrs: { src: _vm.post.url } }),
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "content border-bottom border-2 " }, [
+      _c("div", { staticClass: "content border-bottom border-2" }, [
         _c("p", [_vm._v(_vm._s(_vm.post.title))]),
         _vm._v(" "),
         _c("p", [_vm._v(_vm._s(_vm.post.created_at))]),
@@ -3493,7 +3493,7 @@ var render = function () {
         return _c("Post", { key: index, attrs: { post: post } })
       }),
       _vm._v(" "),
-      _c("div", { staticClass: "col-12 d-flex justify-content-between" }, [
+      _c("div", { staticClass: "col-12 d-flex justify-content-between mt-3" }, [
         _vm.pagination.current_page == 1 ? _c("div") : _vm._e(),
         _vm._v(" "),
         _vm.pagination.current_page > 1

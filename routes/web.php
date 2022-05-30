@@ -25,4 +25,5 @@ Route::middleware('auth')
     Route::resource('posts',"PostsController");
     Route::get("/{any}","PostsController@index")->where("any",".*");
 });
+Route::get('/contacts', "Contacst@index")->name("contatcs");
 Route::get("/{any}","HomeController@index")->where("any",".*");

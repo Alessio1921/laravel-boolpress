@@ -1,7 +1,7 @@
 <template>
   <div class="row">
       <Post v-for="(post,index) in posts" :key="index" :post="post"/>
-      <div class="col-12 d-flex justify-content-between">
+      <div class="col-12 d-flex justify-content-between mt-3">
         <div v-if="pagination.current_page == 1"></div>
         <button class="btn btn-outline-primary" @click="getPosts(pagination.current_page - 1)" v-if="pagination.current_page > 1">prev</button>
         <h5>Pagina: {{pagination.current_page}}</h5>

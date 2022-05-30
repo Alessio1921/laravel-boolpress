@@ -5,7 +5,7 @@
       <div class="photo w-75 mx-auto">
         <img class="w-100" :src="post.url">
       </div>
-      <div class="content border-bottom border-2 ">
+      <div class="content border-bottom border-2">
         <p>{{ post.title}}</p>
         <p>{{ post.created_at}}</p>
         <p>{{post.description}}</p>

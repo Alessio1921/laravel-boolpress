@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use App\Post;
 use Illuminate\Support\Facades\Auth;
 use App\Category;
-
+use Illuminate\Support\Facades\Storage;
 
 class PostsController extends Controller
 {
@@ -52,7 +52,8 @@ class PostsController extends Controller
         $newPost->title = $data["title"];
         $newPost->user = Auth::user()->name;
         $newPost->description = $data["description"];
-        $newPost->url = $data["url"];
+        $newPost->url = Storage::put('uploads',$data["img"]);
+        // $newPost->url = $data["url"];
         $newPost->slug = Str::slug($data["title"],"-");
         $newPost->save();
         $newPost->categories()->sync($data['category_id']);
