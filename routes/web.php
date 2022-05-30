@@ -25,8 +25,8 @@ Route::middleware('auth')
     Route::resource('posts',"PostsController");
     Route::get("/{any}","PostsController@index")->where("any",".*");
 });
-Route::get('/contacts', "Contacts@index")->name("contacts");
-Route::post('/contacts', "Contacts@store")->name("contacts.store");
+Route::get('/contact', "Contacts@index")->name("contacts");
+Route::post('/contact', "Contacts@store")->name("contacts.store");
 Route::get('/done', "Contacts@done")->name("guest.done");
 
 

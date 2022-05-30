@@ -2009,6 +2009,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Contacs"
 });
@@ -3428,6 +3431,14 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container" }, [
       _c("h1", { staticClass: "text-center" }, [_vm._v("Contattaci!!")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "text-center" }, [
+        _c("button", { staticClass: "btn btn-outline-primary" }, [
+          _c("a", { attrs: { href: "http://localhost:8000/contact" } }, [
+            _vm._v("Invia un messaggio"),
+          ]),
+        ]),
+      ]),
     ])
   },
 ]
