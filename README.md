@@ -1,3 +1,14 @@
+I continued the laravel-api project. I added vue routers for home, contacts and posts. I added a message section in which the requests sent will be displayed on the mail trap.
+
+<img width="1423" alt="Schermata 2022-06-07 alle 14 37 30" src="https://user-images.githubusercontent.com/95136261/172381032-31f48d86-24b8-45e6-a078-5aa059c3682c.png">
+<img width="1423" alt="Schermata 2022-06-07 alle 14 37 36" src="https://user-images.githubusercontent.com/95136261/172381042-b72527e4-376d-4a92-be93-95760b0006b7.png">
+<img width="1423" alt="Schermata 2022-06-07 alle 14 37 40" src="https://user-images.githubusercontent.com/95136261/172381053-7a63a403-388c-4f11-b507-ce8112c880d9.png">
+<img width="1423" alt="Schermata 2022-06-07 alle 14 37 48" src="https://user-images.githubusercontent.com/95136261/172381059-37f578fd-4537-4453-9d4b-db5380217a2e.png">
+<img width="1423" alt="Schermata 2022-06-07 alle 14 38 32" src="https://user-images.githubusercontent.com/95136261/172381072-686e93d0-96f6-426b-8228-c81fafcda258.png">
+<img width="1423" alt="Schermata 2022-06-07 alle 14 38 40" src="https://user-images.githubusercontent.com/95136261/172381075-0929d7c6-f1d3-4749-b5fa-8df5f881eec5.png">
+<img width="1423" alt="Schermata 2022-06-07 alle 14 39 03" src="https://user-images.githubusercontent.com/95136261/172381077-f5b63f19-5563-43fb-affe-3fb1aa94587d.png">
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
